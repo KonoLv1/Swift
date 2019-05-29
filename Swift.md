@@ -31,4 +31,4 @@ Swiftでは、変数は「 var 」定数は「 let 」を用いる。
 
 * 定数 no に小数点数 11451.4 を設定する。
 
-`let no : Double = 11451.4
+`let no : Double = 11451.4`
