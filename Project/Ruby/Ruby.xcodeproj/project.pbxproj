@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2579B2EEF274D7791ECAB6C7 /* Pods_RubyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE1B07B6E7C3EAB9382160A /* Pods_RubyUITests.framework */; };
+		8E01027B229C50BE00F46911 /* IN1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01027A229C50BE00F46911 /* IN1.png */; };
+		8E01027D229C50D000F46911 /* IN2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01027C229C50D000F46911 /* IN2.png */; };
+		8E01027F229C50DA00F46911 /* OUT1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01027E229C50DA00F46911 /* OUT1.png */; };
+		8E010281229C50E400F46911 /* OUT2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E010280229C50E400F46911 /* OUT2.png */; };
+		8E01333E229EF1FD0037CD25 /* X2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013339229EF1FC0037CD25 /* X2.png */; };
+		8E01333F229EF1FD0037CD25 /* X1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01333A229EF1FC0037CD25 /* X1.png */; };
+		8E013340229EF1FD0037CD25 /* X4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01333B229EF1FC0037CD25 /* X4.png */; };
+		8E013341229EF1FD0037CD25 /* X5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01333C229EF1FC0037CD25 /* X5.png */; };
+		8E013342229EF1FD0037CD25 /* X3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E01333D229EF1FD0037CD25 /* X3.png */; };
+		8E013344229EFEC00037CD25 /* t1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013343229EFEBF0037CD25 /* t1.png */; };
+		8E013346229EFECD0037CD25 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013345229EFECD0037CD25 /* t2.png */; };
+		8E01334A229F07380037CD25 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013349229F07380037CD25 /* t3.png */; };
+		8E06F9CA229D8EE500D1E8B3 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06F9C9229D8EE500D1E8B3 /* Tutorial.swift */; };
+		8E0A4888229C3AB0001B0B10 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A4887229C3AB0001B0B10 /* Result.swift */; };
+		8E12775F22A0092700CA07E0 /* copyright2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E12775E22A0092700CA07E0 /* copyright2.png */; };
+		8E12776122A0093700CA07E0 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E12776022A0093700CA07E0 /* copyright.png */; };
+		8E7015C0229A4E3200BB53C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015BF229A4E3200BB53C9 /* AppDelegate.swift */; };
+		8E7015C2229A4E3200BB53C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015C1229A4E3200BB53C9 /* ViewController.swift */; };
+		8E7015C5229A4E3200BB53C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7015C3229A4E3200BB53C9 /* Main.storyboard */; };
+		8E7015C7229A4E3400BB53C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7015C6229A4E3400BB53C9 /* Assets.xcassets */; };
+		8E7015CA229A4E3400BB53C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7015C8229A4E3400BB53C9 /* LaunchScreen.storyboard */; };
+		8E7015D5229A4E3400BB53C9 /* RubyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015D4229A4E3400BB53C9 /* RubyTests.swift */; };
+		8E7015E0229A4E3400BB53C9 /* RubyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015DF229A4E3400BB53C9 /* RubyUITests.swift */; };
+		9C53E4484F844D8A21C17BD0 /* Pods_RubyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E698FCC216DF8F6554A1038 /* Pods_RubyTests.framework */; };
+		D03AC19EBD1FA948DC60DE13 /* Pods_Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2BBC65B18859A769678AB8 /* Pods_Ruby.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E7015D1229A4E3400BB53C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7015B4229A4E3200BB53C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7015BB229A4E3200BB53C9;
+			remoteInfo = Ruby;
+		};
+		8E7015DC229A4E3400BB53C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7015B4229A4E3200BB53C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7015BB229A4E3200BB53C9;
+			remoteInfo = Ruby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60651FEA35DB9B3701AB6431 /* Pods-RubyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTests.release.xcconfig"; path = "Target Support Files/Pods-RubyTests/Pods-RubyTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2BBC65B18859A769678AB8 /* Pods_Ruby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ruby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740200C4B66B22DFD4AAB03C /* Pods-Ruby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruby.release.xcconfig"; path = "Target Support Files/Pods-Ruby/Pods-Ruby.release.xcconfig"; sourceTree = "<group>"; };
+		77B0368249245DD5E3C27647 /* Pods-RubyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyTests.debug.xcconfig"; path = "Target Support Files/Pods-RubyTests/Pods-RubyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E698FCC216DF8F6554A1038 /* Pods_RubyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E01027A229C50BE00F46911 /* IN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IN1.png; path = ../../../../Downloads/IN1.png; sourceTree = "<group>"; };
+		8E01027C229C50D000F46911 /* IN2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IN2.png; path = ../../../../Downloads/IN2.png; sourceTree = "<group>"; };
+		8E01027E229C50DA00F46911 /* OUT1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OUT1.png; path = ../../../../Downloads/OUT1.png; sourceTree = "<group>"; };
+		8E010280229C50E400F46911 /* OUT2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OUT2.png; path = ../../../../Downloads/OUT2.png; sourceTree = "<group>"; };
+		8E013339229EF1FC0037CD25 /* X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X2.png; path = ../../../../Downloads/X2.png; sourceTree = "<group>"; };
+		8E01333A229EF1FC0037CD25 /* X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X1.png; path = ../../../../Downloads/X1.png; sourceTree = "<group>"; };
+		8E01333B229EF1FC0037CD25 /* X4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X4.png; path = ../../../../Downloads/X4.png; sourceTree = "<group>"; };
+		8E01333C229EF1FC0037CD25 /* X5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X5.png; path = ../../../../Downloads/X5.png; sourceTree = "<group>"; };
+		8E01333D229EF1FD0037CD25 /* X3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X3.png; path = ../../../../Downloads/X3.png; sourceTree = "<group>"; };
+		8E013343229EFEBF0037CD25 /* t1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t1.png; path = ../../../../Downloads/t1.png; sourceTree = "<group>"; };
+		8E013345229EFECD0037CD25 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t2.png; path = ../../../../Downloads/t2.png; sourceTree = "<group>"; };
+		8E013349229F07380037CD25 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t3.png; path = ../../../../Downloads/t3.png; sourceTree = "<group>"; };
+		8E06F9C9229D8EE500D1E8B3 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		8E0A4887229C3AB0001B0B10 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8E12775E22A0092700CA07E0 /* copyright2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copyright2.png; path = ../../../../Downloads/copyright2.png; sourceTree = "<group>"; };
+		8E12776022A0093700CA07E0 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copyright.png; path = ../../../../Downloads/copyright.png; sourceTree = "<group>"; };
+		8E7015BC229A4E3200BB53C9 /* Ruby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7015BF229A4E3200BB53C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E7015C1229A4E3200BB53C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E7015C4229A4E3200BB53C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7015C6229A4E3400BB53C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7015C9229A4E3400BB53C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E7015CB229A4E3400BB53C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7015D0229A4E3400BB53C9 /* RubyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7015D4229A4E3400BB53C9 /* RubyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyTests.swift; sourceTree = "<group>"; };
+		8E7015D6229A4E3400BB53C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7015DB229A4E3400BB53C9 /* RubyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7015DF229A4E3400BB53C9 /* RubyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyUITests.swift; sourceTree = "<group>"; };
+		8E7015E1229A4E3400BB53C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5BA82D04852760494CE567 /* Pods-RubyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyUITests.debug.xcconfig"; path = "Target Support Files/Pods-RubyUITests/Pods-RubyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CD569957564D9017CD0ABA /* Pods-Ruby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruby.debug.xcconfig"; path = "Target Support Files/Pods-Ruby/Pods-Ruby.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F63C730C77AB095A0B1542 /* Pods-RubyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RubyUITests.release.xcconfig"; path = "Target Support Files/Pods-RubyUITests/Pods-RubyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAE1B07B6E7C3EAB9382160A /* Pods_RubyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RubyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7015B9229A4E3200BB53C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03AC19EBD1FA948DC60DE13 /* Pods_Ruby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015CD229A4E3400BB53C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C53E4484F844D8A21C17BD0 /* Pods_RubyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015D8229A4E3400BB53C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2579B2EEF274D7791ECAB6C7 /* Pods_RubyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0A4884229C2F9B001B0B10 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8E12776022A0093700CA07E0 /* copyright.png */,
+				8E12775E22A0092700CA07E0 /* copyright2.png */,
+				8E013349229F07380037CD25 /* t3.png */,
+				8E013345229EFECD0037CD25 /* t2.png */,
+				8E013343229EFEBF0037CD25 /* t1.png */,
+				8E01333A229EF1FC0037CD25 /* X1.png */,
+				8E013339229EF1FC0037CD25 /* X2.png */,
+				8E01333D229EF1FD0037CD25 /* X3.png */,
+				8E01333B229EF1FC0037CD25 /* X4.png */,
+				8E01333C229EF1FC0037CD25 /* X5.png */,
+				8E010280229C50E400F46911 /* OUT2.png */,
+				8E01027E229C50DA00F46911 /* OUT1.png */,
+				8E01027C229C50D000F46911 /* IN2.png */,
+				8E01027A229C50BE00F46911 /* IN1.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		8E7015B3229A4E3200BB53C9 = {
+			isa = PBXGroup;
+			children = (
+				8E7015BE229A4E3200BB53C9 /* Ruby */,
+				8E7015D3229A4E3400BB53C9 /* RubyTests */,
+				8E7015DE229A4E3400BB53C9 /* RubyUITests */,
+				8E7015BD229A4E3200BB53C9 /* Products */,
+				D53189983820A1AD5EC3E987 /* Pods */,
+				C2B56A9D0A784E021AAFA2A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7015BD229A4E3200BB53C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7015BC229A4E3200BB53C9 /* Ruby.app */,
+				8E7015D0229A4E3400BB53C9 /* RubyTests.xctest */,
+				8E7015DB229A4E3400BB53C9 /* RubyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7015BE229A4E3200BB53C9 /* Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				8E0A4884229C2F9B001B0B10 /* Image */,
+				8E7015BF229A4E3200BB53C9 /* AppDelegate.swift */,
+				8E7015C1229A4E3200BB53C9 /* ViewController.swift */,
+				8E0A4887229C3AB0001B0B10 /* Result.swift */,
+				8E7015C3229A4E3200BB53C9 /* Main.storyboard */,
+				8E06F9C9229D8EE500D1E8B3 /* Tutorial.swift */,
+				8E7015C6229A4E3400BB53C9 /* Assets.xcassets */,
+				8E7015C8229A4E3400BB53C9 /* LaunchScreen.storyboard */,
+				8E7015CB229A4E3400BB53C9 /* Info.plist */,
+			);
+			path = Ruby;
+			sourceTree = "<group>";
+		};
+		8E7015D3229A4E3400BB53C9 /* RubyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7015D4229A4E3400BB53C9 /* RubyTests.swift */,
+				8E7015D6229A4E3400BB53C9 /* Info.plist */,
+			);
+			path = RubyTests;
+			sourceTree = "<group>";
+		};
+		8E7015DE229A4E3400BB53C9 /* RubyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7015DF229A4E3400BB53C9 /* RubyUITests.swift */,
+				8E7015E1229A4E3400BB53C9 /* Info.plist */,
+			);
+			path = RubyUITests;
+			sourceTree = "<group>";
+		};
+		C2B56A9D0A784E021AAFA2A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2BBC65B18859A769678AB8 /* Pods_Ruby.framework */,
+				7E698FCC216DF8F6554A1038 /* Pods_RubyTests.framework */,
+				EAE1B07B6E7C3EAB9382160A /* Pods_RubyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53189983820A1AD5EC3E987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD569957564D9017CD0ABA /* Pods-Ruby.debug.xcconfig */,
+				740200C4B66B22DFD4AAB03C /* Pods-Ruby.release.xcconfig */,
+				77B0368249245DD5E3C27647 /* Pods-RubyTests.debug.xcconfig */,
+				60651FEA35DB9B3701AB6431 /* Pods-RubyTests.release.xcconfig */,
+				9A5BA82D04852760494CE567 /* Pods-RubyUITests.debug.xcconfig */,
+				E8F63C730C77AB095A0B1542 /* Pods-RubyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7015BB229A4E3200BB53C9 /* Ruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7015E4229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "Ruby" */;
+			buildPhases = (
+				F21B9C273535D3F3E1E022A5 /* [CP] Check Pods Manifest.lock */,
+				8E7015B8229A4E3200BB53C9 /* Sources */,
+				8E7015B9229A4E3200BB53C9 /* Frameworks */,
+				8E7015BA229A4E3200BB53C9 /* Resources */,
+				F2C2FB19CEC6717B209B1B2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruby;
+			productName = Ruby;
+			productReference = 8E7015BC229A4E3200BB53C9 /* Ruby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E7015CF229A4E3400BB53C9 /* RubyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7015E7229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "RubyTests" */;
+			buildPhases = (
+				33576EDC883C0BB1F64DE0C8 /* [CP] Check Pods Manifest.lock */,
+				8E7015CC229A4E3400BB53C9 /* Sources */,
+				8E7015CD229A4E3400BB53C9 /* Frameworks */,
+				8E7015CE229A4E3400BB53C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7015D2229A4E3400BB53C9 /* PBXTargetDependency */,
+			);
+			name = RubyTests;
+			productName = RubyTests;
+			productReference = 8E7015D0229A4E3400BB53C9 /* RubyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E7015DA229A4E3400BB53C9 /* RubyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7015EA229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "RubyUITests" */;
+			buildPhases = (
+				003565208441E68A1109A82C /* [CP] Check Pods Manifest.lock */,
+				8E7015D7229A4E3400BB53C9 /* Sources */,
+				8E7015D8229A4E3400BB53C9 /* Frameworks */,
+				8E7015D9229A4E3400BB53C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7015DD229A4E3400BB53C9 /* PBXTargetDependency */,
+			);
+			name = RubyUITests;
+			productName = RubyUITests;
+			productReference = 8E7015DB229A4E3400BB53C9 /* RubyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7015B4229A4E3200BB53C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "小山順一";
+				TargetAttributes = {
+					8E7015BB229A4E3200BB53C9 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8E7015CF229A4E3400BB53C9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8E7015BB229A4E3200BB53C9;
+					};
+					8E7015DA229A4E3400BB53C9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8E7015BB229A4E3200BB53C9;
+					};
+				};
+			};
+			buildConfigurationList = 8E7015B7229A4E3200BB53C9 /* Build configuration list for PBXProject "Ruby" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7015B3229A4E3200BB53C9;
+			productRefGroup = 8E7015BD229A4E3200BB53C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7015BB229A4E3200BB53C9 /* Ruby */,
+				8E7015CF229A4E3400BB53C9 /* RubyTests */,
+				8E7015DA229A4E3400BB53C9 /* RubyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7015BA229A4E3200BB53C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E01334A229F07380037CD25 /* t3.png in Resources */,
+				8E013342229EF1FD0037CD25 /* X3.png in Resources */,
+				8E01333F229EF1FD0037CD25 /* X1.png in Resources */,
+				8E01027F229C50DA00F46911 /* OUT1.png in Resources */,
+				8E7015CA229A4E3400BB53C9 /* LaunchScreen.storyboard in Resources */,
+				8E12776122A0093700CA07E0 /* copyright.png in Resources */,
+				8E7015C7229A4E3400BB53C9 /* Assets.xcassets in Resources */,
+				8E01027B229C50BE00F46911 /* IN1.png in Resources */,
+				8E013341229EF1FD0037CD25 /* X5.png in Resources */,
+				8E013344229EFEC00037CD25 /* t1.png in Resources */,
+				8E01027D229C50D000F46911 /* IN2.png in Resources */,
+				8E013346229EFECD0037CD25 /* t2.png in Resources */,
+				8E013340229EF1FD0037CD25 /* X4.png in Resources */,
+				8E12775F22A0092700CA07E0 /* copyright2.png in Resources */,
+				8E01333E229EF1FD0037CD25 /* X2.png in Resources */,
+				8E7015C5229A4E3200BB53C9 /* Main.storyboard in Resources */,
+				8E010281229C50E400F46911 /* OUT2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015CE229A4E3400BB53C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015D9229A4E3400BB53C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003565208441E68A1109A82C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RubyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33576EDC883C0BB1F64DE0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RubyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21B9C273535D3F3E1E022A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ruby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C2FB19CEC6717B209B1B2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruby/Pods-Ruby-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ruby/Pods-Ruby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7015B8229A4E3200BB53C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7015C2229A4E3200BB53C9 /* ViewController.swift in Sources */,
+				8E0A4888229C3AB0001B0B10 /* Result.swift in Sources */,
+				8E7015C0229A4E3200BB53C9 /* AppDelegate.swift in Sources */,
+				8E06F9CA229D8EE500D1E8B3 /* Tutorial.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015CC229A4E3400BB53C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7015D5229A4E3400BB53C9 /* RubyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7015D7229A4E3400BB53C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7015E0229A4E3400BB53C9 /* RubyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E7015D2229A4E3400BB53C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7015BB229A4E3200BB53C9 /* Ruby */;
+			targetProxy = 8E7015D1229A4E3400BB53C9 /* PBXContainerItemProxy */;
+		};
+		8E7015DD229A4E3400BB53C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E7015BB229A4E3200BB53C9 /* Ruby */;
+			targetProxy = 8E7015DC229A4E3400BB53C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E7015C3229A4E3200BB53C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7015C4229A4E3200BB53C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7015C8229A4E3400BB53C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7015C9229A4E3400BB53C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7015E2229A4E3400BB53C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7015E3229A4E3400BB53C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7015E5229A4E3400BB53C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CD569957564D9017CD0ABA /* Pods-Ruby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = Ruby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.Ruby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7015E6229A4E3400BB53C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740200C4B66B22DFD4AAB03C /* Pods-Ruby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = Ruby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.Ruby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E7015E8229A4E3400BB53C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B0368249245DD5E3C27647 /* Pods-RubyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = RubyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.RubyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby.app/Ruby";
+			};
+			name = Debug;
+		};
+		8E7015E9229A4E3400BB53C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60651FEA35DB9B3701AB6431 /* Pods-RubyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = RubyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.RubyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby.app/Ruby";
+			};
+			name = Release;
+		};
+		8E7015EB229A4E3400BB53C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5BA82D04852760494CE567 /* Pods-RubyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = RubyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.RubyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ruby;
+			};
+			name = Debug;
+		};
+		8E7015EC229A4E3400BB53C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F63C730C77AB095A0B1542 /* Pods-RubyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 647AA26HSS;
+				INFOPLIST_FILE = RubyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reiwa.RubyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ruby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7015B7229A4E3200BB53C9 /* Build configuration list for PBXProject "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7015E2229A4E3400BB53C9 /* Debug */,
+				8E7015E3229A4E3400BB53C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7015E4229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7015E5229A4E3400BB53C9 /* Debug */,
+				8E7015E6229A4E3400BB53C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7015E7229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "RubyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7015E8229A4E3400BB53C9 /* Debug */,
+				8E7015E9229A4E3400BB53C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7015EA229A4E3400BB53C9 /* Build configuration list for PBXNativeTarget "RubyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7015EB229A4E3400BB53C9 /* Debug */,
+				8E7015EC229A4E3400BB53C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7015B4229A4E3200BB53C9 /* Project object */;
+}

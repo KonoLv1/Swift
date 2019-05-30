@@ -1,0 +1,6 @@
+framework module Pods_RubyTests {
+  umbrella header "Pods-RubyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
