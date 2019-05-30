@@ -69,8 +69,8 @@
                                         <rect key="frame" x="470" y="50" width="646" height="375"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sgoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="V1I-2A-9o0">
-                                        <rect key="frame" x="960" y="100" width="300" height="200"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="copyright2.png" translatesAutoresizingMaskIntoConstraints="NO" id="V1I-2A-9o0">
+                                        <rect key="frame" x="780" y="50" width="646" height="375"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ull-SO-OV6">
@@ -105,7 +105,8 @@
                     <connections>
                         <outlet property="Image1" destination="tkC-WS-Os7" id="GH1-dz-ely"/>
                         <outlet property="Image2" destination="k2X-FG-eLl" id="NnS-TG-bhb"/>
-                        <outlet property="Image3" destination="eg7-yf-9Ra" id="u5H-oW-8tX"/>
+                        <outlet property="Image3" destination="eg7-yf-9Ra" id="dyk-58-nuM"/>
+                        <outlet property="Image4" destination="V1I-2A-9o0" id="f0h-cX-V3G"/>
                         <outlet property="ScrollView" destination="r7h-dX-b6d" id="Ggh-D9-dj8"/>
                         <outlet property="TutorialLabel1" destination="2uB-I9-1Of" id="k4l-Xq-Jeq"/>
                         <outlet property="TutorialLabel2" destination="IcW-nS-phc" id="Q3w-Lf-RWS"/>
@@ -166,8 +167,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sgoo.png" translatesAutoresizingMaskIntoConstraints="NO" id="YLd-LQ-gb1">
-                                        <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="copyright.png" translatesAutoresizingMaskIntoConstraints="NO" id="YLd-LQ-gb1">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="469"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -265,7 +266,8 @@
         <image name="X3.png" width="200" height="100"/>
         <image name="X4.png" width="200" height="100"/>
         <image name="X5.png" width="200" height="100"/>
-        <image name="sgoo.png" width="522" height="219"/>
+        <image name="copyright.png" width="750" height="1334"/>
+        <image name="copyright2.png" width="750" height="1334"/>
         <image name="t1.png" width="288" height="512"/>
         <image name="t2.png" width="288" height="512"/>
         <image name="t3.png" width="288" height="512"/>

@@ -44,6 +44,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.makeKeyAndVisible()
         }
         print("2回目以降の起動")
+        //　windowを生成
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        //　Storyboardを指定
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        // Viewcontrollerを指定
+        let initialViewController = storyboard.instantiateViewController(withIdentifier:     "Tutorial")
+        // rootViewControllerに入れる
+        self.window?.rootViewController = initialViewController
+        // 表示
+        self.window?.makeKeyAndVisible()
         return true
     }
 

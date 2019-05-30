@@ -23,13 +23,15 @@ class Tutorial: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var Image1: UIImageView!
     @IBOutlet weak var Image2: UIImageView!
     @IBOutlet weak var Image3: UIImageView!
+    @IBOutlet weak var Image4: UIImageView!
+    
     
         override func viewDidLoad() {
             super.viewDidLoad()
            
-            TutorialLabel1.text = "文字をひらがな、もしくはカタカナに\n変換するには、画面の中央をタップします。"
-            TutorialLabel2.text = "変換したい文字を入力後、\nDoneボタンを押すと変換が実行されます。"
-            TutorialLabel3.text = "変換された文字には、読みやすいように\n自動的にスペースが挿入されます。"
+            TutorialLabel1.text = "画面の中央をタップします。"
+            TutorialLabel2.text = "文字を入力後、Doneボタンを押します。"
+            TutorialLabel3.text = "文字が変換されます。"
             // スクロール用に画面のサイズ設定
             ScrollView.contentSize = CGSize(width: ScrollView.frame.size.width * 4,
                                             height: ScrollView.frame.size.height)

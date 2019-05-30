@@ -21,8 +21,9 @@
 		8E013346229EFECD0037CD25 /* t2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013345229EFECD0037CD25 /* t2.png */; };
 		8E01334A229F07380037CD25 /* t3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E013349229F07380037CD25 /* t3.png */; };
 		8E06F9CA229D8EE500D1E8B3 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06F9C9229D8EE500D1E8B3 /* Tutorial.swift */; };
-		8E06F9CC229D90B000D1E8B3 /* sgoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E06F9CB229D90B000D1E8B3 /* sgoo.png */; };
 		8E0A4888229C3AB0001B0B10 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A4887229C3AB0001B0B10 /* Result.swift */; };
+		8E12775F22A0092700CA07E0 /* copyright2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E12775E22A0092700CA07E0 /* copyright2.png */; };
+		8E12776122A0093700CA07E0 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E12776022A0093700CA07E0 /* copyright.png */; };
 		8E7015C0229A4E3200BB53C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015BF229A4E3200BB53C9 /* AppDelegate.swift */; };
 		8E7015C2229A4E3200BB53C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7015C1229A4E3200BB53C9 /* ViewController.swift */; };
 		8E7015C5229A4E3200BB53C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7015C3229A4E3200BB53C9 /* Main.storyboard */; };
@@ -70,8 +71,9 @@
 		8E013345229EFECD0037CD25 /* t2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t2.png; path = ../../../../Downloads/t2.png; sourceTree = "<group>"; };
 		8E013349229F07380037CD25 /* t3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t3.png; path = ../../../../Downloads/t3.png; sourceTree = "<group>"; };
 		8E06F9C9229D8EE500D1E8B3 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
-		8E06F9CB229D90B000D1E8B3 /* sgoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sgoo.png; path = ../../../../Downloads/sgoo.png; sourceTree = "<group>"; };
 		8E0A4887229C3AB0001B0B10 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8E12775E22A0092700CA07E0 /* copyright2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copyright2.png; path = ../../../../Downloads/copyright2.png; sourceTree = "<group>"; };
+		8E12776022A0093700CA07E0 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = copyright.png; path = ../../../../Downloads/copyright.png; sourceTree = "<group>"; };
 		8E7015BC229A4E3200BB53C9 /* Ruby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7015BF229A4E3200BB53C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E7015C1229A4E3200BB53C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,8 @@
 		8E0A4884229C2F9B001B0B10 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				8E12776022A0093700CA07E0 /* copyright.png */,
+				8E12775E22A0092700CA07E0 /* copyright2.png */,
 				8E013349229F07380037CD25 /* t3.png */,
 				8E013345229EFECD0037CD25 /* t2.png */,
 				8E013343229EFEBF0037CD25 /* t1.png */,
@@ -130,7 +134,6 @@
 				8E01333D229EF1FD0037CD25 /* X3.png */,
 				8E01333B229EF1FC0037CD25 /* X4.png */,
 				8E01333C229EF1FC0037CD25 /* X5.png */,
-				8E06F9CB229D90B000D1E8B3 /* sgoo.png */,
 				8E010280229C50E400F46911 /* OUT2.png */,
 				8E01027E229C50DA00F46911 /* OUT1.png */,
 				8E01027C229C50D000F46911 /* IN2.png */,
@@ -331,14 +334,15 @@
 				8E01333F229EF1FD0037CD25 /* X1.png in Resources */,
 				8E01027F229C50DA00F46911 /* OUT1.png in Resources */,
 				8E7015CA229A4E3400BB53C9 /* LaunchScreen.storyboard in Resources */,
+				8E12776122A0093700CA07E0 /* copyright.png in Resources */,
 				8E7015C7229A4E3400BB53C9 /* Assets.xcassets in Resources */,
-				8E06F9CC229D90B000D1E8B3 /* sgoo.png in Resources */,
 				8E01027B229C50BE00F46911 /* IN1.png in Resources */,
 				8E013341229EF1FD0037CD25 /* X5.png in Resources */,
 				8E013344229EFEC00037CD25 /* t1.png in Resources */,
 				8E01027D229C50D000F46911 /* IN2.png in Resources */,
 				8E013346229EFECD0037CD25 /* t2.png in Resources */,
 				8E013340229EF1FD0037CD25 /* X4.png in Resources */,
+				8E12775F22A0092700CA07E0 /* copyright2.png in Resources */,
 				8E01333E229EF1FD0037CD25 /* X2.png in Resources */,
 				8E7015C5229A4E3200BB53C9 /* Main.storyboard in Resources */,
 				8E010281229C50E400F46911 /* OUT2.png in Resources */,
