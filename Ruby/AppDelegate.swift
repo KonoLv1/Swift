@@ -1,5 +1,11 @@
 //
 //  AppDelegate.swift
+//
+//  ここでは、「ビュー間でやり取りする変数の宣言」「初回起動かどうかの確認」「初回起動であればチュートリアルに移動」を行なっています。
+//
+//  Here, "declaring variables to be exchanged between views", "confirming whether it is the first start," and
+//  "Go to tutorial for the first start" are performed.
+//
 //  Ruby
 //
 //  Created by 小山順一 on 2019/05/26.
@@ -12,10 +18,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var userMode:Int = 0    //  ひらがなに変換するかカタカナに変換するかを判断する用(Hiragana or Katakana)
+    var userText:String?    //  変換したい文字列(Character to convert)
+    let dict = ["firstLaunch": true]    //  初回判定用
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let userDefault = UserDefaults.standard
+        let dict = ["firstLaunch": true]
+        userDefault.register(defaults: dict)
+
+        // 初回起動ならチュートリアル画面を表示する（Start the tutorial for the first launch）
+        if userDefault.bool(forKey: "firstLaunch") {
+            userDefault.set(false, forKey: "firstLaunch")
+            print("初回起動")
+            //　windowを生成
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            //　Storyboardを指定
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            // Viewcontrollerを指定
+            let initialViewController = storyboard.instantiateViewController(withIdentifier:     "Tutorial")
+            // rootViewControllerに入れる
+            self.window?.rootViewController = initialViewController
+            // 表示
+            self.window?.makeKeyAndVisible()
+        }
+        print("2回目以降の起動")
         return true
     }
 
