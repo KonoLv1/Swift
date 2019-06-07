@@ -70,6 +70,10 @@ iOSアプリ開発でHTTP通信をラクにするオープンソースライブラリー
 
 プログラムの外部から見た動作を変えずにソースコードの内部構造を整理すること。
 
+* **RxSwift（？）**
+
+Reactive Extensions Swift (RxのSwift版）
+
 ## S
 ## T
 
