@@ -2,6 +2,9 @@
 
 ## 辞書を作成する
 
+上記で**age**の中身を出力する。
+
+
 ```swift
 let user:[String:Int] = [
 	"age":26,
@@ -16,10 +19,9 @@ print(user["age"])
 
 ```
 
-上記で**age**の中身を出力する。
-
-
 ## 辞書を更新する
+
+**LV**を１から２に変更する。
 
 ```swift
 var date:[String:Int] = [
@@ -32,10 +34,10 @@ date["lv"] = 2
 print(date["lv"])
 ```
 
-**LV**を１から２に変更する。
-
 
 ## 辞書に追加する
+
+**point**を追加する。
 
 ```swift
 var date:[String:Int] = [
@@ -48,5 +50,4 @@ date["point"] = 2
 print(date["point"])
 ```
 
-**point**を追加する。
 
