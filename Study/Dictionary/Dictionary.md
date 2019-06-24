@@ -18,17 +18,35 @@ print(user["age"])
 
 上記で**age**の中身を出力する。
 
+
 ## 辞書を更新する
 
 ```swift
 var date:[String:Int] = [
-	"ID":1000,
-	"LV":1,
-	"COIN":114514
+	"id":1000,
+	"lv":1,
+	"coin":114514
 ]
 
-date["LV"] = 2
-print(date["LV"])
+date["lv"] = 2
+print(date["lv"])
 ```
 
 **LV**を１から２に変更する。
+
+
+## 辞書に追加する
+
+```swift
+var date:[String:Int] = [
+	"id":1000,
+	"lv":1,
+	"coin":114514
+]
+
+date["point"] = 2
+print(date["point"])
+```
+
+**point**を追加する。
+
