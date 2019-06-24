@@ -50,4 +50,8 @@ date["point"] = 2
 print(date["point"])
 ```
 
+## 辞書から取り出した値はオプショナル（Optional）となる
+
+### 前提知識として **nil** を理解する
+
 
