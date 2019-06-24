@@ -1,5 +1,7 @@
 # 辞書の基本文法
 
+## 辞書を作成する
+
 ```swift
 let user:[String:Int] = [
 	"age":26,
@@ -15,3 +17,18 @@ print(user["age"])
 ```
 
 上記で**age**の中身を出力する。
+
+## 辞書を更新する
+
+```swift
+var date:[String:Int] = [
+	"ID":1000,
+	"LV":1,
+	"COIN":114514
+]
+
+date["LV"] = 2
+print(date["LV"])
+```
+
+**LV**を１から２に変更する。
