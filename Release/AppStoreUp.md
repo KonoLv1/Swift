@@ -1,7 +1,7 @@
 # AppStoreアップに関するリジェクト記録
 
 
-## Guideline 2.3.3 - Performance - Accurate Metadata
+## Guideline 2.3.3 - Performance - Accurate Metadata <2019.07.10 ~ >
 
 Specifically, your 6.5-inch iPhone screenshots do not display the app in the correct device frame.
 
