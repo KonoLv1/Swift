@@ -1,34 +1,37 @@
-# Swift
+## 音楽を流す
 
-## 様々な型
+```swift:ViewController.swift
 
-### var と let
+import UIKit
+import AVFoundation
 
-Swiftでは、変数は「 var 」定数は「 let 」を用いる。
-
-* 問題ない例
-
-`var no = 1  
- no = 2`
-
-* エラーになる例
-
-`let no = 1  
- no = 2`
-
-### 整数型
-
-「 0 」や「 12345 」などの整数は、Int型を用いる。
-
-* 定数 no に整数 12345 を設定する。
-
-`let no : Int = 12345`
-
-### 浮動小数点数型
+class ViewController: UIViewController {
+var audioPlayer: AVAudioPlayer!
+var audioPlayer2: AVAudioPlayer!
 
 
-「 0.1 」 や 「 11451.4 」 など小数点数は、Double型を用いる。
+@IBOutlet weak var A: UIButton!
+@IBOutlet weak var B: UIButton!
+override func viewDidLoad() {
+super.viewDidLoad()
 
-* 定数 no に小数点数 11451.4 を設定する。
 
-`let no : Double = 11451.4`
+
+MusicPlay(mode:-1,fileName: "button")
+
+}
+
+
+func MusicPlay(mode: Int,fileName: String){
+do {
+let filePath = Bundle.main.path(forResource: fileName,ofType: "mp3")
+let musicPath = URL(fileURLWithPath: filePath!)
+audioPlayer = try AVAudioPlayer(contentsOf: musicPath)
+} catch {
+print("error")
+}
+audioPlayer.numberOfLoops = mode
+audioPlayer.play()
+}
+}
+```
